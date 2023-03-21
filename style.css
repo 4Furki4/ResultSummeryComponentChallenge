@@ -177,20 +177,24 @@ summary h3 {
 
 
     .result {
+
         border-radius: 25px;
         height: 420px;
         width: 305px;
         margin-inline: 0;
-        box-shadow: -5px -5px 5px rgb(136, 136, 136);
+        box-shadow: -5px -5px 5px var(--light-lavender);
     }
 
     summary {
-        box-shadow: 3px -2px 4px rgb(136, 136, 136);
+        box-shadow: 10px -4px 10px var(--light-lavender);
         position: relative;
+        padding-left: 4rem;
+        z-index: 0;
+        left: -3rem;
         margin-inline: 0;
         height: 420px;
         width: 305px;
-        border-radius: 25px 25px 25px 10px;
+        border-radius: 0px 25px 25px 0px;
     }
 
     .skill-card {
